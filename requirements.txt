@@ -1,0 +1,10 @@
+pandas
+tqdm
+streamlit
+keybert
+sentence-transformers==2.2.2
+transformers==4.30.2
+torch==2.1.2
+huggingface_hub==0.15.1
+scikit-learn
+matplotlib

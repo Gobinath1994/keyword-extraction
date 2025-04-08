@@ -1,0 +1,30 @@
+chat_id,message,keywords_str
+1,My system is freezing after a recent update.,"recent, update, recent update, freezing recent, freezing"
+2,My system is slowing down after a recent update.,"recent, update, recent update, slowing recent, slowing"
+3,My system is freezing after installing new drivers.,"new, installing new, drivers, freezing, freezing installing"
+4,What is Dell SupportAssist?,
+5,How do I fix slow performance?,"fix, slow, performance, fix slow, slow performance"
+6,How do I fix blue screen?,"fix, blue, screen, fix blue, blue screen"
+7,My system is crashing after a recent update.,"recent, update, recent update, crashing recent, crashing"
+8,Can you help me with ASUS MyASUS?,"help, myasus, asus, help asus, asus myasus"
+9,Can you help me with Dell SupportAssist?,"help, supportassist, dell, help dell, dell supportassist"
+10,How do I fix overheating?,
+11,I'm getting a overheating on boot.,"getting, boot, overheating, getting overheating, overheating boot"
+12,My system is slowing down after installing new drivers.,"new, installing, drivers, slowing, slowing installing"
+15,What is Lenovo Vantage?,
+18,How do I fix no sound?,
+21,What is ASUS MyASUS?,
+25,I'm getting a blue screen on boot.,"getting, screen, blue, boot, blue screen"
+26,I'm getting a blue screen on shutdown.,"getting, getting blue, shutdown, screen shutdown, blue screen"
+29,How do I fix fan error?,"fix, error, fan, fix fan, fan error"
+33,Can you help me with Lenovo Vantage?,"help, vantage, lenovo, help lenovo, lenovo vantage"
+36,Can you help me with HP Smart?,"help, smart, hp, help hp, hp smart"
+37,What is HP Smart?,
+40,My system is crashing after installing new drivers.,"new, installing new, drivers, crashing installing, crashing"
+42,I'm getting a blue screen on startup.,"getting, blue, startup, screen startup, blue screen"
+54,My system is slowing down after connecting to Wi-Fi.,"fi, wi, slowing, connecting wi, slowing connecting"
+55,My system is freezing after connecting to Wi-Fi.,"fi, wi, connecting wi, freezing, freezing connecting"
+59,I'm getting a fan error on startup.,"getting, startup, fan, error startup, fan error"
+60,I'm getting a no sound on shutdown.,"getting, sound, shutdown, getting sound, sound shutdown"
+63,I'm getting a no sound on boot.,"getting, sound, boot, getting sound, sound boot"
+93,I'm getting a overheating on shutdown.,"getting, shutdown, overheating, getting overheating, overheating shutdown"
