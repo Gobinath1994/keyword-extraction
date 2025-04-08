@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # Customer Support Chat Log Keyword Extraction
 
 This project aims to **automatically extract keywords** from **customer support chat logs**. It helps businesses identify common issues or trends in customer interactions by analyzing the content of chat messages.
@@ -48,11 +44,11 @@ Customer support chat logs contain valuable information about customer issues, p
 ## Technologies Used
 
 - **Python 3.10+**
-- **Pandas** – Data manipulation and cleaning.
-- **KeyBERT** & **Sentence-Transformers** – Keyword extraction using pre-trained models.
-- **Streamlit** – Interactive web application.
-- **Matplotlib** – Visualization.
-- **TQDM** – Progress bars for long operations.
+- **Pandas** – Data manipulation and cleaning
+- **KeyBERT** & **Sentence-Transformers** – Keyword extraction using pre-trained models
+- **Streamlit** – Interactive web application
+- **Matplotlib** – Visualization
+- **TQDM** – Progress bars for long operations
 
 ---
 
@@ -60,18 +56,21 @@ Customer support chat logs contain valuable information about customer issues, p
 
 ### 1. Set Up a Python Environment
 
-Using conda:
+Using `conda`:
 
 ```bash
 conda create -n keyword-extraction python=3.10
 conda activate keyword-extraction
 ```
 
-Or using virtualenv:
+Or using `virtualenv`:
 
 ```bash
 python -m venv keyword-extraction
-source keyword-extraction/bin/activate  # On Windows: keyword-extraction\Scripts\activate
+# On macOS/Linux:
+source keyword-extraction/bin/activate
+# On Windows:
+keyword-extraction\Scripts\activate
 ```
 
 ### 2. Install Required Dependencies
@@ -86,7 +85,7 @@ pip install -r requirements.txt
 python -c "import pandas, streamlit, keybert, torch"
 ```
 
-If no errors appear, you’re good to go!
+If no errors appear, you're good to go!
 
 ---
 
@@ -101,67 +100,64 @@ python main.py
 ```
 
 This will:
-- Load the customer support chat logs.
-- Extract keywords from the messages.
-- Save the results to `outputs/cleaned_keywords.csv`.
+- Load the customer support chat logs
+- Extract keywords from the messages
+- Save the results to `outputs/cleaned_keywords.csv`
 
 ---
 
 ### 2. Streamlit UI
 
-Run the Streamlit app:
+Launch the Streamlit app:
 
 ```bash
 streamlit run app.py
 ```
 
-This will launch a web interface where you can:
-- Upload your chat logs in CSV format.
-- View and explore the extracted keywords.
-- Visualize keyword frequencies in a bar chart.
-- Filter messages by specific keywords.
+This will open a browser-based UI where you can:
+- Upload your chat logs in CSV format
+- View and explore the extracted keywords
+- Visualize keyword frequencies in a bar chart
+- Filter messages by specific keywords
 
 ---
 
 ## Streamlit Interface
 
 1. **Upload Chat Log CSV**  
-   Upload a CSV file containing chat logs with columns: `chat_id`, `role`, and `message`.
+   Upload a CSV file with columns: `chat_id`, `role`, and `message`.
 
 2. **Keyword Extraction**  
-   The app will automatically extract keywords from customer messages after uploading.
+   The app automatically extracts keywords from customer messages after upload.
 
 3. **Search and Filter**  
-   Search for a specific keyword and filter messages containing it.
+   Use the search box to filter messages by keyword.
 
 4. **Visualize Top Keywords**  
-   View a bar chart showing the most frequently used keywords.
+   A bar chart shows the most frequently occurring keywords.
 
 ---
 
 ## Output
 
-The output CSV file (`cleaned_keywords.csv`) contains:
+The output CSV file `cleaned_keywords.csv` includes:
 
-| chat_id | message                                | keywords                          |
-|---------|----------------------------------------|-----------------------------------|
-| 1       | My system is freezing after an update  | freezing, system, recent update   |
-| 2       | My system is slowing down              | slowing down, system              |
+| chat_id | message                                 | keywords                          |
+|---------|-----------------------------------------|-----------------------------------|
+| 1       | My system is freezing after an update   | freezing, system, recent update   |
+| 2       | My system is slowing down               | slowing down, system              |
 
 ---
 
 ## Future Improvements
 
-- 🧠 **Sentiment Analysis**: Analyze sentiment of customer messages (positive/neutral/negative).
-- 🗂️ **Issue Categorization**: Group messages into categories (e.g., “technical issue”, “feedback”).
-- 🔁 **Real-Time Chat Integration**: Extend to process live chat streams.
+- 🧠 **Sentiment Analysis**: Analyze sentiment of messages (positive/neutral/negative)
+- 🗂️ **Issue Categorization**: Group messages into categories (e.g., “technical issue”, “feedback”)
+- 🔁 **Real-Time Chat Integration**: Process live chat streams
 - 📈 **Enhanced Visualizations**: Add word clouds, time-series trends, etc.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
-```
-
----
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
